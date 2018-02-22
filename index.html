@@ -5,294 +5,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Curriculum Vitae">
-    <meta name="author" content="Hugo Roca">
-
     <title>Hugo Roca</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/resume.css" rel="stylesheet">
+    <link href="assets/css/anexsoft-theme/style.css" type="text/css" rel="stylesheet" />
+    <script src="assets/js/jquery.js"></script>
 </head>
 
-<body id="page-top">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">
-            <span class="d-block d-lg-none">Hugo Roca</span>
-            <span class="d-none d-lg-block">
-                <img src="img/profile.jpg" alt="Hugo Roca" class="img-fluid img-profile  mx-auto mb-2">
-            </span>
-        </a>
+<body>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#about">Acerca</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#experience">Experiencia</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#formacion">Formación</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#habilidades">Habilidades</a>
-                </li>
-            </ul>
+    <div id="cv-container">
+        <div id="user">
+            <div class="user-container-fixed">
+                <div class="user-container">
+                    <h1>Hugo Roca Espinoza</h1>
+                    <img class="pic" src="assets/img/profile.jpg" title="Hugo Roca Espinoza" />
+                    <span class="title">Teléfono</span>
+                    <span class="description">945943857</span>
+                    <span class="title">Email</span>
+                    <span class="description">
+                        <a href="mailto:@Model.Email">hugo.rock20@hotmail.com</a>
+                    </span>
+                    <span class="title">Dirección</span>
+                    <span class="description">
+                        Mz. C Lt. 7 Urb. San Remo II <br /> Perú - Lima / SMP
+                    </span>
+                </div>
+            </div>
         </div>
-    </nav>
-
-    <div class="container-fluid p-0">
-        <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-            <div class="my-auto">
-                <h1 class="mb-0">Hugo
-                    <span class="text-primary">Roca</span>
-                </h1>
-                <div class="subheading mb-5">Lima · (51) 945-943-857 ·
-                    <a href="mailto:name@email.com">hugo.rock20@hotmail.com</a>
-                </div>
-
-                <img src="img/profile.jpg" alt="Hugo Roca" class="img-fluid img-profile  mx-auto mb-2 d-block d-sm-none">
-
-                <p class="mb-5 text-justify">Soy un técnico titulado altamente motivado y orientado a conseguir resultados dentro de cualquier sector,
-                    tengo experiencia en revelamiento, diseño, implementación y mantenimiento de sistemas en lenguajes C#,
-                    VisualBasic.Net, ASP.NET, JavaScript (AngularJS, JQuery), Java y HTML5 y CSS3 (Bootstrap).</p>
-
-                <ul class="list-inline list-social-icons mb-0">
-                    <li class="list-inline-item">
-                        <a href="CV-HUGO_ROCA.pdf" download="Hugo-Roca-CV.pdf">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-download fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://www.linkedin.com/in/hugoroca" target="_blank">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://github.com/HugoRoca" target="_blank">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
-            <div class="my-auto">
-                <h2 class="mb-5">Experiencia</h2>
-                <div class="resume-item d-flex flex-column flex-md-row mb-5">
-                    <div class="resume-content mr-auto">
-                        <h3 class="mb-0">Analista Programador</h3>
-                        <div class="subheading mb-3">Tibox S.R.L</div>
-                        <p>
-                            <ul>
-                                <li>Integración al equipo de desarrollo del sistema SOFTBOX que reemplazo al SIFIC cuyas ventanas
-                                    son parametrizables, como también los procesos a nivel de préstamos (Joyas, Electrodomésticos,
-                                    Vehicular)
-                                </li>
-                                <li>Creación de reportes (reporting services).</li>
-                                <li>Desarrollo de un proyecto Web de préstamos por garantías para inversiones la cruz, cuenta
-                                    con un servicio SOAP para la evaluación de los clientes, el proyecto se desarrolló en
-                                    MVC5, owin, c#, Ninject, AngularJS, HTML5, CSS3 y bootstrap.</li>
-                                <li>Desarrollo de un servicio de Windows para el envío de correos con los archivos adjuntos del
-                                    préstamo solicitado o desembolsado.</li>
-                                <li>Desarrollo del proyecto web Soy Lucas para inversiones la cruz, cuenta con un servicio SOAP
-                                    para la evaluación de los clientes y una WebApiRest que se desarrolló en c#, Dapper,
-                                    LightInject y Owin usando el paradigma de programación orientada a objetos y los principios
-                                    de SOLID. Para el diseño del proyecto se utilizó HTML5, CSS3 y bootstrap. Para el consumo
-                                    de la Web Api Rest se utilizó AngularJS en la versión 1, usando la guía de estilo de
-                                    John papa (https://github.com/johnpapa/angular-styleguide).</li>
-                                <li>Desarrollo del proyecto web Soy Marcos, se utilizó los mismos recursos del proyecto soy Lucas.
-                                </li>
-                            </ul>
-                        </p>
-                    </div>
-                    <div class="resume-date text-md-right">
-                        <span class="text-primary">Abril 2016 - Actualidad</span>
-                    </div>
-                </div>
-
-                <div class="resume-item d-flex flex-column flex-md-row mb-5">
-                    <div class="resume-content mr-auto">
-                        <h3 class="mb-0">Analista Programador .NET</h3>
-                        <div class="subheading mb-3">Edpyme Inversiones La Cruz</div>
-                        <p>
-                            <ul>
-                                <li>Desarrollo y mantenimiento de un módulo de gestión de planillas para RRHH desarrollado con
-                                    Visual studio 2008 y SQL Server.</li>
-                                <li>Desarrollo y mantenimiento de un sistema contable para El Salvador desarrollado con visual
-                                    studio 2008 y SQL Server.</li>
-                                <li>Mantenimiento al sistema SIFIC de inversiones la cruz del módulo retail que fue desarrollado
-                                    con Visual Basic y SQL Server.</li>
-                                <li>Creación de reportes en reporting services.</li>
-                            </ul>
-                        </p>
-                    </div>
-                    <div class="resume-date text-md-right">
-                        <span class="text-primary">Septiembre 2015 - Marzo 2016</span>
-                    </div>
-                </div>
-
-                <div class="resume-item d-flex flex-column flex-md-row mb-5">
-                    <div class="resume-content mr-auto">
-                        <h3 class="mb-0">Desarrollador Java</h3>
-                        <div class="subheading mb-3">IdeasTech</div>
-                        <p>
-                            <ul>
-                                <li>Desarrollo y mantenimiento de módulos de compras, ventas, cobranzas crédito-efectivo, control
-                                    de inventario, control de asistencia bajo los lenguajes Java, JavaScript. Manejo de base
-                                    de datos MySql y SQLserver.</li>
-                            </ul>
-                        </p>
-                    </div>
-                    <div class="resume-date text-md-right">
-                        <span class="text-primary">Enero 2015 - Agosto 2015</span>
-                    </div>
-                </div>
-
-            </div>
-
-        </section>
-
-        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="formacion">
-            <div class="my-auto">
-                <h2 class="mb-5">Formación</h2>
-
-                <div class="resume-item d-flex flex-column flex-md-row mb-5">
-                    <div class="resume-content mr-auto">
-                        <h3 class="mb-0">ISTP Paul Müller</h3>
-                        <div class="subheading mb-3">Tecnico</div>
-                        <div>Compuatación e Informática</div>
-                    </div>
-                    <div class="resume-date text-md-right">
-                        <span class="text-primary">Febrero 2012 - Diciembre 2014</span>
+        <div id="content">
+            <div class="options-container-fixed hidden-print">
+                <div class="options">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <a href="~/default/ExportaAPDF" target="_blank" class="btn btn-danger">
+                                <i class="fa fa-file-pdf-o"></i>
+                                <span class="hidden-xs hidden-sm">Descargar en PDF</span>
+                            </a>
+                            <button class="btn btn-primary" onclick="window.print();">
+                                <i class="fa fa-print"></i>
+                                <span class="hidden-xs hidden-sm">Imprimir</span>
+                            </button>
+                            <button class="btn btn-default" data-toggle="modal" data-target="#mContacto">
+                                <i class="fa fa-envelope-o"></i>
+                                <span class="hidden-xs hidden-sm">Contactar</span>
+                            </button>
+                            <a target="_blank" href="" title="Linkedin" class="btn btn-default">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                            <a target="_blank" href="" title="GitHub" class="btn btn-default">
+                                <i class="fa fa-github"></i>
+                            </a>
+                            <!--a target="_blank" href="" title="Facebook" class="btn btn-default">
+                                <i class="fa fa-facebook"></i>
+                            </a-->
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
+            <div class="content-container container-fluid">
 
-        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="habilidades">
-            <div class="my-auto">
-                <h2 class="mb-5">Habilidades</h2>
+                En construccion
 
-                <div class="subheading mb-3">Lenguajes de Programación &amp; Herramientas</div>
-                <ul class="list-inline list-icons">
-                    <li class="list-inline-item">
-                        <i class="devicon-html5-plain-wordmark colored"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-css3-plain-wordmark colored"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-sass-original colored"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-less-plain-wordmark colored"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-bootstrap-plain-wordmark colored"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-nodejs-plain-wordmark colored"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-javascript-plain colored"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-jquery-plain-wordmark colored"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-angularjs-plain-wordmark colored"></i>
-                    </li>
-                </ul>
-                <ul class="list-inline list-icons">
-                    <li class="list-inline-item">
-                        <i class="devicon-php-plain colored"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-dot-net-plain-wordmark colored"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-csharp-plain-wordmark colored"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-java-plain-wordmark colored"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicons devicons-npm"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-visualstudio-plain-wordmark colored"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-github-plain-wordmark colored"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-git-plain-wordmark colored"></i>
-                    </li>
-                </ul>
-                <ul class="list-inline list-icons">
-                    <li class="list-inline-item">
-                        <i class="devicon-mysql-plain-wordmark colored"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicons devicons-msql_server"></i>
-                    </li>
-                </ul>
+                <footer id="footer">
+                    2018 - Curriculum Vitae 
+                    <a href="">Hugo Roca</a>
+                </footer>
 
-                <div class="subheading mb-3">Workflow</div>
-                <ul class="fa-ul mb-0">
-                    <li>
-                        <i class="fa-li fa fa-check"></i>
-                        Mobile-First, Responsive Design</li>
-                    <li>
-                        <i class="fa-li fa fa-check"></i>
-                        Cross Browser Testing &amp; Debugging</li>
-                    <li>
-                        <i class="fa-li fa fa-check"></i>
-                        Cross Functional Teams</li>
-                    <li>
-                        <i class="fa-li fa fa-check"></i>
-                        Agile Development, POO, MVC &amp; SOLID principles</li>
-                </ul>
             </div>
-        </section>
+        </div>
     </div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/resume.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.form.js"></script>
+    <script src="assets/js/ini.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
+    <script src="assets/js/jquery.validate.unobtrusive.min.js"></script>
 </body>
 
 </html>
