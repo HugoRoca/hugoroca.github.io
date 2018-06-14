@@ -9,17 +9,17 @@
 </head>
 <body>
     <input type="file" capture="camera" accept="image/*" id="cameraInput" name="cameraInput">
-    <div id="your_img_id"></div>
+    <img id="your_img_id">
     <script>
         $('#cameraInput').on('change', function(e){
             var data = e.originalEvent.target.files[0];
             var reader = new FileReader();
             reader.onload = function(evt) {
-            $('#your_img_id').attr('src',evt.target.result);
+                $('#your_img_id').attr('src',evt.target.result);
                 reader.readAsDataUrl(data);
-                console.log(data);
-                console.log(reader);
             }
+            console.log(data);
+            console.log(reader);
         });
     </script>
 </body>
