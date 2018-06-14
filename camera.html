@@ -12,12 +12,15 @@
     <div id="your_img_id"></div>
     <script>
         $('#cameraInput').on('change', function(e){
-            $data = e.originalEvent.target.files[0];
-            $reader = new FileReader();
-            reader.onload = function(evt){
+            var data = e.originalEvent.target.files[0];
+            var reader = new FileReader();
+            reader.onload = function(evt) {
             $('#your_img_id').attr('src',evt.target.result);
-            reader.readAsDataUrl($data);
-        }});
+                reader.readAsDataUrl(data);
+                console.log(data);
+                console.log(reader);
+            }
+        });
     </script>
 </body>
 </html>
