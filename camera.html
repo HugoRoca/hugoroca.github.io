@@ -5,8 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </head>
 <body>
     <input type="file" capture="camera" accept="image/*" id="cameraInput" name="cameraInput">
+    <div id="your_img_id"></div>
+    <script>
+        $('#cameraInput').on('change', function(e){
+            $data = e.originalEvent.target.files[0];
+            $reader = new FileReader();
+            reader.onload = function(evt){
+            $('#your_img_id').attr('src',evt.target.result);
+            reader.readAsDataUrl($data);
+        }});
+    </script>
 </body>
 </html>
