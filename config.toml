@@ -1,0 +1,37 @@
+# Site settings
+baseurl = "http://example.org/"
+languageCode = "es-PE"
+title = "Hugo - Colección de proyectos personales"
+theme = "hugrid"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = "UA-XXXXXXXX-Y"
+
+contentdir = "content"
+datadir = "data"
+layoutdir = "layouts"
+publishdir = "public"
+
+# Enable comments by entering your Disqus shortname
+disqusShortname = "hugoroca"
+
+[params]
+    # Meta
+    title = "Hugo Roca"
+    subtitle = "Colección de proyectos personales a código abierto"
+    author = "Pavel Kanyshev"
+    description = "Hugrid - grid theme for Hugo with an expanding image preview."
+    keywords = "Hugo, Hugo theme, grid theme, portfolio, bookmarks, collection, contacts"
+
+    # Body background color
+    bodybgcolor = "#f9f9f9"
+
+    # Preview container button text
+    buttontext = "Más información"
+
+    # Footer text
+    footertext = "Made by [Codrops](http://tympanus.net/codrops/2013/03/19/thumbnail-grid-with-expanding-preview/), [Hugo](http://gohugo.io) and [me](https://github.com/HugoRoca)"
+
+    # add extra-css
+    # custom_css = ['css/extra1.css', 'css/extra2.css']
+
+    BaseURL = "images/"
