@@ -13,9 +13,7 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 disqusShortname = "yourdiscussshortname"
-contentdir = "content"
-datadir = "data"
-layoutdir = "layouts"
+
 publishdir = "docs"
 
 [params]
