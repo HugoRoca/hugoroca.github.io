@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Experiencia on Hugo Roca</title>
+    <link>https://hugoroca.github.io/experiencia/</link>
+    <description>Recent content in Experiencia on Hugo Roca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 08 Jul 2018 00:09:01 -0500</lastBuildDate>
+    
+	<atom:link href="https://hugoroca.github.io/experiencia/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ideastech</title>
+      <link>https://hugoroca.github.io/experiencia/ideastech/</link>
+      <pubDate>Sun, 08 Jul 2018 00:09:01 -0500</pubDate>
+      
+      <guid>https://hugoroca.github.io/experiencia/ideastech/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
