@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo Roca</title>
-    <link>/</link>
+    <link>https://hugoroca.github.io/</link>
     <description>Recent content on Hugo Roca</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-PE</language>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hugoroca.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Experiencia Laboral</title>
-      <link>/experiencia/</link>
+      <link>https://hugoroca.github.io/experiencia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/experiencia/</guid>
+      <guid>https://hugoroca.github.io/experiencia/</guid>
       <description>ZOLUXIONES SAC Consultor de Análisis y Programación
 (Marzo 2018 - Actualidad)
  Intregración al equipo de BELCORP. Desarrollo y Mantenimiento del sistema somosbelcorp, desarrollado en MVC5, C#, JQuery y WCF como servicio. Implementación de procesos de pedidos de productos, creación de certificados comerciales. Mantenimiento y desarrollo de servicios Windows para ejecución de procesos durante la noche. Reporte y soluciones de BUGS en ambientes de QAS y Producción. Control de código de fuente con github.</description>
@@ -23,10 +23,10 @@
     
     <item>
       <title>Sobre mi</title>
-      <link>/contacto/</link>
+      <link>https://hugoroca.github.io/contacto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/contacto/</guid>
+      <guid>https://hugoroca.github.io/contacto/</guid>
       <description>Hola soy Hugo, me dedico al desarrollo y análisis de software. Tengo conocimientos en varios lenguajes y paradigmas de programación. Si deseas comunicarte conmigo puedes enviarme un correo electronico a la siguiente dirección &amp;ldquo;hugo.rock20@hotmail.com&amp;rdquo;.
 Si quieres saber más acerca de mi trabajo, puedes visitar el siguiente sitio web dando click aquí.
 Gracias por visitar!</description>
