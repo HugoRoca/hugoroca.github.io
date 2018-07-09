@@ -3,33 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hugoroca.github.io/experiencia/ideastech/</loc>
-    <lastmod>2018-07-08T00:09:01-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hugoroca.github.io/contacto/</loc>
-  </url>
-  
-  <url>
-    <loc>https://hugoroca.github.io/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://hugoroca.github.io/experiencia/</loc>
-    <lastmod>2018-07-08T00:09:01-05:00</lastmod>
+    <loc>/experiencia/</loc>
+  </url>
+  
+  <url>
+    <loc>/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://hugoroca.github.io/</loc>
-    <lastmod>2018-07-08T00:09:01-05:00</lastmod>
-    <priority>0</priority>
+    <loc>/contacto/</loc>
   </url>
   
   <url>
-    <loc>https://hugoroca.github.io/tags/</loc>
+    <loc>/tags/</loc>
     <priority>0</priority>
   </url>
   

@@ -2,35 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo Roca</title>
-    <link>https://hugoroca.github.io/</link>
+    <link>/</link>
     <description>Recent content on Hugo Roca</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es</language>
-    <lastBuildDate>Sun, 08 Jul 2018 00:09:01 -0500</lastBuildDate>
+    <language>es-PE</language>
     
-	<atom:link href="https://hugoroca.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Ideastech</title>
-      <link>https://hugoroca.github.io/experiencia/ideastech/</link>
-      <pubDate>Sun, 08 Jul 2018 00:09:01 -0500</pubDate>
+      <title>Experiencia Laboral</title>
+      <link>/experiencia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hugoroca.github.io/experiencia/ideastech/</guid>
-      <description></description>
+      <guid>/experiencia/</guid>
+      <description>ZOLUXIONES SAC Consultor de Análisis y Programación
+(Marzo 2018 - Actualidad)
+ Intregración al equipo de BELCORP. Desarrollo y Mantenimiento del sistema somosbelcorp, desarrollado en MVC5, C#, JQuery y WCF como servicio. Implementación de procesos de pedidos de productos, creación de certificados comerciales. Mantenimiento y desarrollo de servicios Windows para ejecución de procesos durante la noche. Reporte y soluciones de BUGS en ambientes de QAS y Producción. Control de código de fuente con github.</description>
     </item>
     
     <item>
-      <title>About Hugo</title>
-      <link>https://hugoroca.github.io/contacto/</link>
+      <title>Sobre mi</title>
+      <link>/contacto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hugoroca.github.io/contacto/</guid>
-      <description>Hugo is a static site engine written in Go.
-It makes use of a variety of open source projects including:
- Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.
-Setup Some fun facts about Hugo:
- Built in Go Loosely inspired by Jekyll Primarily developed by spf13 on the train while commuting to and from Manhattan. Coded in Vim using spf13-vim  Have questions or suggestions?</description>
+      <guid>/contacto/</guid>
+      <description>Hola soy Hugo, me dedico al desarrollo y análisis de software. Tengo conocimientos en varios lenguajes y paradigmas de programación. Si deseas comunicarte conmigo puedes enviarme un correo electronico a la siguiente dirección &amp;ldquo;hugo.rock20@hotmail.com&amp;rdquo;.
+Si quieres saber más acerca de mi trabajo, puedes visitar el siguiente sitio web dando click aquí.
+Gracias por visitar!</description>
     </item>
     
   </channel>
